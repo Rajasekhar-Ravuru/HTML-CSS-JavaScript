@@ -1,0 +1,54 @@
+header{
+    background-color: orange;
+    color: white;
+    text-align: left;
+    font-size: xx-large;
+}
+#heading{
+    background-color: orange;
+    color: white;
+    text-align: right;
+    font-size: xx-large;
+}
+.home{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+nav{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition-duration: 1s;
+    transition-property: all;
+
+}
+.card{
+   
+    padding: 0.2%;
+    box-shadow: 3px 2px 2px 3px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#old-price{
+    text-decoration: line-through;
+}
+#percentage{
+color: orange;
+}
+.card:hover{
+    transform: scaleX(1.1);
+}
+
